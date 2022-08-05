@@ -1,0 +1,12 @@
+package com.bjpowernode.dao;
+
+import com.bjpowernode.model.Student;
+import org.apache.ibatis.annotations.Param;
+
+/**
+ * @Mapper：告诉MyBatis这是dao接口，创建此接口的代理对象
+ */
+public interface SchoolDao {
+
+    Student selectById(@Param("stuId") Integer id);
+}

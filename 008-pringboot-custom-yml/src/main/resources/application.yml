@@ -1,0 +1,14 @@
+
+# 设置端口号
+server.port: 8082
+# context-path
+server.servlet.context-path: /myboot
+
+# 自定义key=value
+school.name: 动力节点
+school.website: www.bjpowernode.com
+school.address: 北京大兴区
+
+site: www.baidu.com
+
+
